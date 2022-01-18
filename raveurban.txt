@@ -1,0 +1,6 @@
+File I/O (txt, csv, excel)
+Enconding to pass special symbols like the naira and dollar sign
+read_file = open("C:/Users/beatrice1/Desktop/python.txt", mode = "r", encoding = "utf-8")   
+
+whole_data = read_file.readlines()
+print(len(whole_data))
